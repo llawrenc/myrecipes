@@ -3,6 +3,29 @@ $navbar-default-bg: #073B15;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.recipe-actions {
+  padding-top: 5px;
+  a {
+    color: #fff;
+  }
+}
+
+.colormatch a {
+  color: #073B15;
+}
+
+.chef_info {
+  margin-top: 10px;
+}
+
+.well a {
+  color: #073B15;
+}
+
+.description {
+  margin-top: 0;
+}
+
 .centre {
   text-align: center;
 }
@@ -45,4 +68,33 @@ $navbar-default-bg: #073B15;
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
